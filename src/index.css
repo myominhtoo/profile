@@ -1,0 +1,273 @@
+
+:root{
+    --dark:rgba(0,0,0,1);
+    --pale-dk:rgba(0,0,0,0.9);
+    --pale-white:rgba(255,255,255,0.15);
+    --snow:rgba(255,255,255,1);
+}
+
+body{
+    background: var(--dark);
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+#thm,.thm{
+    color:#feb062 !important;
+}
+
+#navbar{
+    padding:20px 0;
+    z-index:100;
+    clear:both;
+    background: rgba(0,0,0,1);
+}
+
+#navbar #nav *{
+    font-size: 20px;
+    color:var(--snow);
+    text-decoration: none;
+}
+
+
+#navbar #icon{
+    padding:15px 18px;
+    font-size:30px;
+    background-color: var(--pale-white);
+    color:var(--snow);
+    border-radius: 5px;
+}
+
+
+#main{
+    margin-top:80px;
+    height:85vh;
+    background:transparent;
+    padding:100px 0
+}
+
+#home{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5;
+}
+
+
+#home-content{
+    color:var(--snow);
+    width:80%;
+    letter-spacing: 1px;
+}
+
+#home-content h6{
+    font-size: 20px;
+}
+
+
+#main #image-container{
+    display: none;
+    width:400px;
+    height:400px;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: 3px 5px 5px rgba(255,255,255,0.15);
+}
+
+#image-container #image-wrapper{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.25);
+    border-radius: inherit;
+}
+
+#image-container img{
+    width:100%;
+    height:100%;
+    border-radius: inherit;
+    object-fit: cover;
+}
+
+#home-content a{
+    border: 1px solid rgba(255,255,255,0.15);
+    color:var(--snow);
+    padding:5px 10px;
+    transition: 0.5s all;
+}
+
+#home-content a:hover{
+    box-shadow: 0 0 3px var(--snow);
+}
+
+#footer{
+    padding:30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#footer div{
+    display: flex;
+    gap:2;
+    color:var(--snow);
+    opacity: 50%;
+    margin:0 30px;
+    align-items: center;
+    padding:5px 0;
+}
+
+#footer a{
+    color:var(--snow);
+    opacity: 50%;
+}
+
+#footer i{
+    font-size: 20px;
+}
+
+#footer span{
+    font-size: 15px;
+}
+
+#about{
+    margin:80px auto;
+    width:90%;
+}
+
+#skill{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#percent-wrapper{
+    width:100%;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 5px;
+}
+
+#skill #percent{
+    width:60%;
+    background: #feb062;
+    padding: 4px 0;
+    border-radius: 5px;
+    margin: 0;
+}
+
+section{
+    margin:30px 0;
+}
+
+
+section *{
+    color:var(--snow);
+}
+
+section #content{
+    opacity: 50%;
+}
+
+#education-section,#projects-section{
+    border: 1px solid rgba(255,255,255,0.15);
+    padding:30px;
+    border-radius: 10px;
+    transition: 0.4s all;
+}
+
+section:hover{
+    box-shadow: 0 0 5px rgba(255,255,255,0.15);
+}
+
+#projects-container{
+    width:100%;
+    margin: 50px 0;
+}
+
+#project{
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.15);
+    padding: 30px;
+    margin: 30px 0;
+}
+
+#project i{
+    font-size: 20px;
+}
+
+#project i{
+    opacity: 50%;
+}
+
+#tech{
+    padding:5px 10px;
+    border: 1px solid rgba(255,255,255,0.15);
+    color:#feb062;
+    margin:20px 0;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+    height:50px !important;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #feb062;
+    outline: 1px solid slategrey;
+  }
+
+  #up-wrapper{
+    background:none;
+  }
+
+  #up-wrapper p{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background-color:rgba(255,255,255,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+
+@media (min-width:850px){
+    #main #image-container{
+        display: block;
+    }
+
+    #home-content{
+        width:30%;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #about{
+        width:75%;
+    }
+
+    #skill{
+        width:45%; 
+        gap:0;
+    }
+
+    #home-content h6{
+        font-size: 17px;
+    }
+    
+}

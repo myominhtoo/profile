@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "name" : "Music Player",
+        "description" : "Music Player Using React Typscript With Own Idea",
+        "teachs" : ["React"],
+        "githubUrl" : "https://github.com/myominhtoo/music-player",
+        "deployUrl" : "https://lio-music-player.netlify.app/"
+    },
+    {
+        "id" : 2,
+        "name" : "Shopping Cart",
+        "description" : "Shopping Cart Using React Typscript",
+        "teachs" : ["React"],
+        "githubUrl" : "https://github.com/myominhtoo/shopping-cart",
+        "deployUrl" : "https://lionel-shopping-cart.netlify.app/"
+    },
+    {
+        "id" : 3,
+        "name":"Tic Tac Toe",
+        "description" : "Tic Tac Toe Using React With Own Idea",
+        "teachs" : ["React"],
+        "githubUrl" : "https://github.com/myominhtoo/tic_tac_toe",
+        "deployUrl" : "https://lionel-tic-tac-toe.netlify.app/"
+    },
+    {
+        "id" : 4,
+        "name" : "Hexa Team's News Project",
+        "description" : "News Project Using Spring Boot & Vue",
+        "teachs" : ["Spring Boot","Vue"],
+        "githubUrl" : "https://github.com/myominhtoo/hexa_spa",
+        "deployUrl" : ""
+    },
+    {
+        "id" : 5,
+        "name" : "Student Data CRUD",
+        "description" : "CRUD Using Spring Boot & React",
+        "teachs" : ["Spring Boot","React"],
+        "githubUrl" : "https://github.com/myominhtoo/stu_with_react",
+        "deployUrl" : ""
+    },
+    {
+        "id" : 6,
+        "name" : "Basic CRUD",
+        "description" : "CRUD Using Vue & PHP",
+        "teachs" : ["Vue","PHP"],
+        "githubUrl" : "https://github.com/myominhtoo/php_vue_api_test",
+        "deployUrl" : ""
+    }
+]

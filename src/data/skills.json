@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "React",
+        "percent" : 70
+    },
+    {
+        "name" : "Vue",
+        "percent" : 70
+    },
+    {
+        "name" : "Angular",
+        "percent" : 55
+    },
+    {
+        "name" : "Javascript",
+        "percent" : 70
+    },
+    {
+        "name" : "Typescript",
+        "percent" : 65
+    },
+    {
+        "name" : "Java",
+        "percent" : 70
+    },
+    {
+        "name" : "Spring",
+        "percent" : 60
+    }
+]
